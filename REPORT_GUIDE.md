@@ -9,7 +9,7 @@
 - 项目概览：https://raw.githubusercontent.com/hamliy-feng/qiaomai/main/README.md
 - 本导读：https://raw.githubusercontent.com/hamliy-feng/qiaomai/main/REPORT_GUIDE.md
 - 机器索引：https://raw.githubusercontent.com/hamliy-feng/qiaomai/main/PROJECT_INDEX.json
-- 演示数据清单：https://raw.githubusercontent.com/hamliy-feng/qiaomai/main/data/frontend_demo/MANIFEST.json
+- 资料数据清单：https://raw.githubusercontent.com/hamliy-feng/qiaomai/main/data/frontend_demo/MANIFEST.json
 - GitHub Contents API：https://api.github.com/repos/hamliy-feng/qiaomai/contents/
 
 公开仓库不要求授予写权限即可阅读、克隆或下载。GitHub API 未登录访问受平台速率限制，批量读取可直接克隆仓库。
@@ -42,19 +42,18 @@ git rev-parse HEAD
 1. 项目背景、使用者与研究问题。
 2. 十一页面的信息架构、视觉语言与主要交互。
 3. HTML / CSS / Vanilla JavaScript、Repository 及模块划分。
-4. Source → Canonical → Presentation → 前端演示库的数据流程。
+4. Source → Canonical → Presentation → 前端资料库的数据流程。
 5. 实体、关系、来源追溯与媒体准入规则。
 6. 已有验证结果、可重复运行方式与证据范围。
-7. 图片覆盖、后端接入、原件获取等现存限制与后续工作。
+7. 图片覆盖、原件获取等现存限制与后续工作。
 
 ## 事实表述边界
 
-- 当前数量为人物 1001、家族 89、地点 383、组织 126、事件 2774、档案 1208、侨批元数据 81，属于演示库记录数。
-- “已入演示库”“前端允许展示”“来源已经完整学术核验”分别表示不同状态；原始采集记录可用于核对来源与质量。
+- 当前数量为人物 1001、家族 89、地点 383、组织 126、事件 2774、档案 1208、侨批元数据 81，属于当前资料库记录数。
+- “已入资料库”“前端允许展示”“来源已经完整学术核验”分别表示不同状态；原始采集记录可用于核对来源与质量。
 - 侨批可公开原件数为 0。81 条元数据不等于 81 件可公开扫描原件；不能把示意 SVG 或其他侨批图片当作本件原件。
 - 家族和迁徙关系应核对相应来源；地图关系图不能单独作为历史行程证据。
-- 原九页重构测试的 55 / 19 / 10 项结论属于当时的小演示库，不应写成全量数据浏览器测试已经通过。
-- Backend 模式预留适配不等于已有生产后端；账户、OCR 和 Evidence 服务尚未接入。
+- 原九页重构测试的 55 / 19 / 10 项结论属于当时的早期样本，不应写成全量数据浏览器测试已经通过。
 
 ## 引用与公开范围
 

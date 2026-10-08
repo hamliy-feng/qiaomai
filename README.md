@@ -11,9 +11,9 @@
 
 ## 当前实现
 
-更新日期：2026-10-08。当前是前端演示系统，默认 `QM_CONFIG.mode = "demo"`；真实后端 API、账户认证与 OCR 服务尚未接入。
+更新日期：2026-10-08。侨脉提供人物、家族、地点、事件、组织、历史档案与侨批的资料检索、关联浏览和研究工具。
 
-| 资料类型 | 当前演示库条数 |
+| 资料类型 | 当前资料库条数 |
 |---|---:|
 | 人物 | 1001 |
 | 家族 | 89 |
@@ -23,7 +23,7 @@
 | 历史档案 | 1208 |
 | 侨批元数据 | 81 |
 
-数量以 [MANIFEST.json](data/frontend_demo/MANIFEST.json) 和 [VALIDATION.json](data/frontend_demo/VALIDATION.json) 为依据，表示演示库记录规模。原始资料的来源与质量字段保留在数据层；页面不展示审核标签。报告引用具体史实时仍需核对原始来源。
+数量以 [MANIFEST.json](data/frontend_demo/MANIFEST.json) 和 [VALIDATION.json](data/frontend_demo/VALIDATION.json) 为依据，表示当前资料记录规模。原始资料的来源与质量字段保留在数据层；页面不展示审核标签。报告引用具体史实时仍需核对原始来源。
 
 当前可供原件阅读器展示的侨批 `clean_original` 数量为 **0**。元数据条数不能作为已公开原件数量；采集样图不随仓库上传。
 
@@ -46,9 +46,9 @@ Windows 也可双击 `启动侨脉前端.bat`。启动器在 `8767–8799` 中�
 | 路径 | 内容 |
 |---|---|
 | `frontend/` | 11 个 HTML 页面、共享组件、页面脚本、本地媒体和第三方库 |
-| `frontend/assets/api.js` | 统一 Repository 与 Demo / Backend 访问适配 |
-| `frontend/assets/data.js` | 构建生成的浏览器演示数据 |
-| `data/frontend_demo/` | 演示库 JSON、清单、结构验证与静态集成检查 |
+| `frontend/assets/api.js` | 统一 Repository 与数据访问适配 |
+| `frontend/assets/data.js` | 构建生成的浏览器资料数据 |
+| `data/frontend_demo/` | 资料库 JSON、清单、结构验证与静态集成检查 |
 | `data/collection/` | R01 / R02 来源登记、采集记录与质量记录 |
 | `data/canonical/` | 规范化人物、家族、地点、组织、事件与关系 |
 | `data/presentation/`、`data/release/` | 展示层与阶段性数据快照 |
@@ -70,7 +70,7 @@ node scripts/validate_no_review_labels.mjs
 
 结构验证检查实体 ID、关系引用、坐标格式和侨批媒体条件；静态集成检查验证脚本可解析及关键人物已接入。浏览器冒烟脚本 `scripts/smoke_frontend_full_demo.cjs` 额外依赖 Playwright 和 Chromium。
 
-`artifacts/frontend-redesign/verification.json` 是早期小演示库阶段的 55 组尺寸、19 项交互和 10 页离线验证，不代表当前全量数据已经通过同一轮浏览器验收。当前证据范围见 [FRONTEND_STATUS.md](FRONTEND_STATUS.md)。
+`artifacts/frontend-redesign/verification.json` 是早期样本阶段的 55 组尺寸、19 项交互和 10 页离线验证，不代表当前全量数据已经通过同一轮浏览器验收。当前证据范围见 [FRONTEND_STATUS.md](FRONTEND_STATUS.md)。
 
 ## 数据与媒体使用
 
