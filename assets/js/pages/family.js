@@ -1,0 +1,7 @@
+QM_PAGES.family=()=>{
+ const Q=QM,{e,title}=Q;
+ return Q.directory('family','探索全球华侨家族的传承、迁徙与历史记忆',x=>{
+  const members=Q.resolve('person',x.memberIds),places=Q.resolve('place',x.placeIds),docs=Q.resolve('document',x.documentIds);
+  return `<article class="card dossier family-dossier">${Q.thumb(places[0]||x,'place')}<div class="dossier-copy"><h2>${e(title(x))}</h2><div class="meta-line">${Q.icon('map-pin')}${e(x.origin)} ${Q.chip('家族档案')}${Q.chip('前端演示')}</div><p class="line-clamp">${e(x.summary)}</p></div></article><section class="card family-tree-card"><div class="card-head"><h3>家族世系图</h3><div class="segment" style="margin-left:auto">${[1,2,3].map(n=>`<button data-generation="${n}" class="${n===2?'active':''}" aria-label="展示${n}代">${['一代','二代','三代'][n-1]}</button>`).join('')}</div></div><div data-tree>${QM_TREE.render(x,2)}</div></section><div class="family-bottom">${Q.section('核心成员',Q.rows(members,'person'),'person.html')}${Q.section('祖籍与迁徙',QM_MAP.element([...new Set([...x.placeIds||[],...members.flatMap(p=>p.placeIds||[])])]),'place.html')}${Q.section('关联地点',Q.rows(places,'place'),'place.html')}${Q.section('相关档案',Q.rows(docs,'document'),'archive.html')}</div>`;
+ },{filters:`<div class="filter-row">${Q.select('地区',['福建','广东'],'data-filter')}${Q.select('主要迁徙地',['新加坡','美国'],'data-filter')}${Q.select('时间',['近现代'],'data-filter')}</div>`,afterDetail:(x,root)=>{if(x)QM_TREE.bind(x,root)}});
+};
