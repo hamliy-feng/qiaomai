@@ -1,0 +1,31 @@
+# 本地工作状态与缓存
+.agent_memory/
+.playwright-mcp/
+.codex-memory/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+
+# 凭据与本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+
+# 旧交付压缩包与重复编码不进入源代码仓库
+*.zip
+*.b64
+
+# 未通过公开使用检查的侨批采集样图只保留本地
+data/collection/R02/qiaopi_media_samples/
+data/collection/R02/qiaopi_review_thumbnails/
+data/media_original/

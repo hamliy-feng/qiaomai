@@ -1,0 +1,15 @@
+{
+  "total": 1000,
+  "reference_rows_available": 1000,
+  "counts": {
+    "basic_source_ready": 130,
+    "priority_review_ready": 44,
+    "scope_manual_review": 154,
+    "wiki_only_plus_wikidata": 605,
+    "needs_more_sources": 67
+  },
+  "priority_review_ready": 44,
+  "basic_source_ready": 130,
+  "wiki_only_plus_wikidata": 605,
+  "needs_more_sources": 67
+}

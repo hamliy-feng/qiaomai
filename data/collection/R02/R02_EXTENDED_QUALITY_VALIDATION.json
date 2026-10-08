@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-10-08T03:30:15.984Z",
+  "people": {
+    "total": 1000,
+    "basic_ready_candidate": 846,
+    "manual_review": 154,
+    "source_reference_rows": 1000,
+    "with_any_wikidata_reference": 536,
+    "with_direct_reference_url": 234,
+    "with_2plus_reference_domains": 78,
+    "with_3plus_reference_domains": 29,
+    "priority_review_ready": 44,
+    "basic_source_ready": 130,
+    "wiki_only_plus_wikidata": 605,
+    "needs_more_sources": 67,
+    "scope_manual_review": 154
+  },
+  "organizations": {
+    "total": 126,
+    "upgraded_this_round": 6,
+    "reviewed": 14,
+    "reviewed_basic": 46,
+    "front_end_basic_ready": 60,
+    "candidate_normalized": 66
+  },
+  "events": {
+    "dated_or_birth_death_total": 1616,
+    "dated_front_end_candidate": 1344,
+    "dated_manual_review": 272,
+    "relation_activity_candidates": 1092,
+    "relation_activity_by_type": {
+      "residence": 88,
+      "work_location": 33,
+      "education": 654,
+      "association_activity": 99,
+      "employment": 218
+    },
+    "relation_activity_timeline_eligible": 0,
+    "total_research_event_records": 2708
+  },
+  "places": {
+    "count": 376,
+    "map_ready": 320,
+    "text_ready_no_coordinates": 55,
+    "needs_authority_review": 1,
+    "with_aliases": 331,
+    "historical_alias_authorities": 2,
+    "top20": [
+      {
+        "id": "place_wd_Q68695",
+        "name": "泉州市",
+        "linked_person_count": 10,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q59223",
+        "name": "中山市",
+        "linked_person_count": 16,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q16572",
+        "name": "广州市",
+        "linked_person_count": 214,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q172",
+        "name": "多伦多",
+        "linked_person_count": 8,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q59100",
+        "name": "汕头市",
+        "linked_person_count": 22,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q599514",
+        "name": "开平市",
+        "linked_person_count": 13,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q68481",
+        "name": "福州市",
+        "linked_person_count": 37,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q60",
+        "name": "纽约",
+        "linked_person_count": 11,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q68744",
+        "name": "厦门市",
+        "linked_person_count": 31,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q1867",
+        "name": "台北市",
+        "linked_person_count": 23,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q59132",
+        "name": "江门市",
+        "linked_person_count": 120,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q15175",
+        "name": "广东省",
+        "linked_person_count": 91,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q164904",
+        "name": "台山市",
+        "linked_person_count": 23,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q62",
+        "name": "旧金山",
+        "linked_person_count": 9,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q948245",
+        "name": "番禺区",
+        "linked_person_count": 16,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q59227",
+        "name": "潮州市",
+        "linked_person_count": 36,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q41705",
+        "name": "福建省",
+        "linked_person_count": 45,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q65",
+        "name": "洛杉矶",
+        "linked_person_count": 7,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q945428",
+        "name": "顺德区",
+        "linked_person_count": 13,
+        "status": "map_ready",
+        "score": 11
+      },
+      {
+        "id": "place_wd_Q1023893",
+        "name": "南海区",
+        "linked_person_count": 9,
+        "status": "map_ready",
+        "score": 11
+      }
+    ]
+  },
+  "families": {
+    "families_with_2plus_relations": 89,
+    "priority_family_review": 19,
+    "basic_family_candidate": 29
+  },
+  "qiaopi_media": {
+    "reviewed_media_records": 13,
+    "states": {
+      "external_only": 5,
+      "rejected_media": 3,
+      "reference_only": 3,
+      "pending_manual_review": 2
+    },
+    "publishable_clean_original": 0,
+    "policy": "Only clean_original + no watermark + no alteration + full_page + rights allowed can be copied to production frontend media."
+  },
+  "errors": [],
+  "warnings": [
+    "No qiaopi clean_original media passes the hard gate; production frontend must show metadata/text or empty media state."
+  ],
+  "structural_quality_passed": true,
+  "production_release_ready": false,
+  "production_blockers": [
+    "1000人物已结构化，但仅174人达到 priority/basic source-ready；其余仍需补独立来源或人工审查。",
+    "家族89个为候选关系组，尚未逐户完成第二来源确认。",
+    "侨批 clean_original 正式媒体仍为0；禁止去水印、裁切规避或P图。",
+    "3000份侨批规范化全文尚未完成。"
+  ]
+}

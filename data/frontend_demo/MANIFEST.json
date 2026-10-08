@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-10-08T06:59:03.116Z",
+  "counts": {
+    "persons": 1001,
+    "families": 89,
+    "places": 383,
+    "orgs": 126,
+    "events": 2774,
+    "documents": 1208,
+    "qiaopi": 81
+  },
+  "qiaopi_clean_original": 0,
+  "source_files": [
+    "data/presentation/R02/persons_1000_basic_cards.jsonl",
+    "data/collection/R02/person_source_coverage.jsonl",
+    "data/canonical/R02/families_generated_candidate.jsonl",
+    "data/canonical/R02/places_quality_audited.jsonl",
+    "data/canonical/R02/organizations_merged_v5.jsonl",
+    "data/canonical/R02/events_quality_audited.jsonl",
+    "data/canonical/R02/events_activity_candidate.jsonl",
+    "data/canonical/R02/organization_history_events.jsonl",
+    "data/collection/R01/qiaopi_candidates.csv",
+    "data/canonical/R01/qiaopi.jsonl"
+  ],
+  "policy": {
+    "all_acquired_records_in_demo": true,
+    "display_review_labels": false,
+    "all_records_user_approved_for_demo": true,
+    "source_provenance_preserved": true,
+    "qiaopi_media_gate": "clean_original only"
+  }
+}

@@ -1,0 +1,1 @@
+import {execSync} from "child_process";try{console.log(execSync("python3 -c \"import PIL; print(PIL.__version__)\"",{encoding:"utf8"}).trim())}catch(e){console.log("PIL NO",e.status,e.stderr?.toString())}

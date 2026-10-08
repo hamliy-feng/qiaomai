@@ -1,0 +1,11 @@
+import fs from "fs";import path from "path";import {fileURLToPath} from "url";
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
+const D=path.join(ROOT,"data","collection","R02");
+const p=path.join(D,"qiaopi_media_review.jsonl");
+const rows=fs.readFileSync(p,"utf8").split(/\r?\n/).filter(Boolean).map(JSON.parse);
+const publishable=rows.filter(x=>x.media_state==="clean_original"&&x.watermark_status==="none"&&x.alteration_status==="none"&&x.crop_status==="full_page"&&x.rights_status==="allowed");
+fs.writeFileSync(path.join(D,"qiaopi_media_publishable.jsonl"),publishable.map(x=>JSON.stringify(x)).join("\n")+(publishable.length?"\n":""),"utf8");
+const states={};for(const x of rows)states[x.media_state]=(states[x.media_state]||0)+1;
+const summary={reviewed_media_records:rows.length,states,publishable_clean_original:publishable.length,policy:"Only clean_original + no watermark + no alteration + full_page + rights allowed can be copied to production frontend media."};
+fs.writeFileSync(path.join(D,"qiaopi_media_gate_summary.json"),JSON.stringify(summary,null,2),"utf8");
+console.log(JSON.stringify(summary,null,2));

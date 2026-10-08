@@ -1,0 +1,11 @@
+{
+  "reviewed_media_records": 13,
+  "states": {
+    "external_only": 5,
+    "rejected_media": 3,
+    "reference_only": 3,
+    "pending_manual_review": 2
+  },
+  "publishable_clean_original": 0,
+  "policy": "Only clean_original + no watermark + no alteration + full_page + rights allowed can be copied to production frontend media."
+}

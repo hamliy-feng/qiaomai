@@ -1,0 +1,13 @@
+{
+  "persons_preview": 1000,
+  "persons_with_summary": 1000,
+  "persons_with_occupations": 914,
+  "persons_with_overseas_links": 935,
+  "persons_with_family_candidates": 219,
+  "persons_with_org_candidates": 491,
+  "persons_with_image_candidate": 411,
+  "places_preview": 200,
+  "places_preview_with_coordinates": 200,
+  "organizations_preview": 126,
+  "organizations_reviewed": 14
+}

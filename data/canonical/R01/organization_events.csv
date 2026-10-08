@@ -1,0 +1,25 @@
+event_id,event_type,title,date_raw,date_start,date_end,date_precision,organization_ids,place_ids,source_ids,importance,review_status
+event_shhk_founded,founded_org,新加坡福建会馆成立,1840,1840,,year,org_singapore_hokkien_huay_kuan,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-SHHK-OFFICIAL",5,reviewed
+event_shhk_taonan,education,福建会馆参与创办道南学校,1906,1906,,year,org_singapore_hokkien_huay_kuan,place_singapore,SRC-SHHK-OFFICIAL,4,reviewed
+event_shhk_nanyang_land,donation,福建会馆捐地支持南洋大学,1955,1955,,year,org_singapore_hokkien_huay_kuan,place_singapore,SRC-SHHK-OFFICIAL,4,reviewed
+event_amoy_founded,founded_org,新加坡厦门公会成立,1938,1938,,year,org_nus_amoy_association,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-AMOY-OFFICIAL|SRC-AMOY-HERITAGE",5,reviewed
+event_amoy_wwii_pause,association_activity,厦门公会战时活动中断,1942-1945,1942,1945,range,org_nus_amoy_association,place_singapore,SRC-AMOY-HERITAGE,3,reviewed
+event_lamann_founded,founded_org,新加坡南安会馆成立,1926,1926,,year,org_nus_lam_ann,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-LAMANN-HERITAGE",5,reviewed
+event_lamann_registered,association_activity,南安会馆完成公司形式登记,1950,1950,,year,org_nus_lam_ann,place_singapore,SRC-LAMANN-HERITAGE,3,reviewed
+event_chinkang_founded,founded_org,新加坡晋江会馆成立,1918,1918,,year,org_nus_chin_kang,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-CHINKANG-NHB",5,reviewed
+event_chinkang_clubhouse,association_activity,晋江会馆早期会所建设,1928,1928,,year,org_nus_chin_kang,place_singapore,SRC-CHINKANG-NHB,3,reviewed
+event_chungshan_predecessor,association_activity,香山同乡互助组织前身形成,1821,1821,,year,org_nus_chung_shan,place_singapore,SRC-CHUNGSHAN-OFFICIAL,4,reviewed
+event_chungshan_registered,founded_org,新加坡中山会馆正式登记,1837,1837,,year,org_nus_chung_shan,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-CHUNGSHAN-OFFICIAL",5,reviewed
+event_teochew_founded,founded_org,新加坡潮州八邑会馆成立,1929,1929,,year,org_nus_teochew_poit_ip,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-TEOCHEW-NLB",5,reviewed
+event_teochew_federation,association_activity,潮州八邑会馆推动潮州社群联合事务,1930s,1930,1939,decade,org_nus_teochew_poit_ip,place_singapore,SRC-TEOCHEW-NLB,3,reviewed
+event_annkway_prepare,association_activity,安溪同乡开始筹组会馆,1922,1922,,year,org_nus_ann_kway,place_singapore,SRC-ANNKWAY-ROOTS,4,reviewed
+event_annkway_founded,founded_org,新加坡安溪会馆正式成立,1923,1923,,year,org_nus_ann_kway,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-ANNKWAY-HERITAGE|SRC-ANNKWAY-ROOTS",5,reviewed
+event_annkway_school,education,安溪会馆创办作人学校,1924,1924,,year,org_nus_ann_kway,place_singapore,SRC-ANNKWAY-HERITAGE,4,reviewed
+event_engchoon_founded,founded_org,新加坡永春会馆成立,1867,1867,,year,org_nus_eng_choon,place_singapore,"SRC-NUS-SFCCA-INDEX|SRC-ENGCHOON-HERITAGE|SRC-ENGCHOON-NAS",5,reviewed
+event_engchoon_beachroad,association_activity,永春会馆迁至Beach Road会所,1888,1888,,year,org_nus_eng_choon,place_singapore,SRC-ENGCHOON-HERITAGE,3,reviewed
+event_engchoon_amoystreet,association_activity,永春会馆迁至Amoy Street并举行落成仪式,1905,1905,,year,org_nus_eng_choon,place_singapore,"SRC-ENGCHOON-HERITAGE|SRC-ENGCHOON-NAS",4,reviewed
+event_ngeeann_founded,founded_org,义安公司成立,1845,1845,,year,org_ngee_ann_kongsi,place_singapore,"SRC-NGEEANN-OFFICIAL|SRC-TEOCHEW-NLB",5,reviewed
+event_ngeeann_incorporated,association_activity,义安公司正式法团化,1933,1933,,year,org_ngee_ann_kongsi,place_singapore,"SRC-NGEEANN-OFFICIAL|SRC-NGEEANN-LAW",4,reviewed
+event_ngeeann_school,education,义安公司创办义安女子学校,1940,1940,,year,org_ngee_ann_kongsi,place_singapore,SRC-NGEEANN-OFFICIAL,4,reviewed
+event_ocbc_founded,founded_org,三家华资银行合并成立华侨银行,1932,1932,,year,org_ocbc,place_singapore,SRC-LKC-OCBC,5,reviewed
+event_ocbc_lee_leadership,appointment,李光前出任华侨银行重要领导职务,1938-1964,1938,1964,range,org_ocbc,place_singapore,SRC-LKC-OCBC,4,reviewed

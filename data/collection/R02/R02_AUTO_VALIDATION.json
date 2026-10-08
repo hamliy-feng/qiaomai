@@ -1,0 +1,31 @@
+{
+  "batch": "R02",
+  "counts": {
+    "persons": 1000,
+    "persons_unique_qids": 1000,
+    "enriched_persons": 1000,
+    "person_preview": 1000,
+    "events": 1616,
+    "places": 376,
+    "places_with_coordinates": 321,
+    "place_preview": 200,
+    "person_place_relations": 1459,
+    "person_org_relations": 971,
+    "family_relations": 414,
+    "family_relations_internal": 40,
+    "person_sources": 1000,
+    "organizations": 126,
+    "organizations_reviewed": 12,
+    "organization_preview": 126,
+    "person_image_candidates": 411,
+    "place_image_candidates": 285
+  },
+  "scope_status": {
+    "strong_candidate": 562,
+    "medium_candidate": 264,
+    "needs_diaspora_verification": 174
+  },
+  "errors": [],
+  "warnings": [],
+  "validation_passed": true
+}

@@ -1,0 +1,1 @@
+import {execSync} from "child_process";for(const c of ["which convert","which magick","which ffmpeg","which cwebp","which python3"]){try{console.log(c,"=>",execSync(c,{encoding:"utf8"}).trim())}catch(e){console.log(c,"=> NO")}}

@@ -1,0 +1,254 @@
+{
+  "raw": 584,
+  "natural_chinese": 578,
+  "selected": 65,
+  "before_1950": 65,
+  "gd": 25,
+  "fj": 40,
+  "samples": [
+    {
+      "qid": "Q345012",
+      "name": "惠能",
+      "birth": "0638-01-01T00:00:00Z",
+      "home": "新州",
+      "citizenships": [
+        {
+          "qid": "Q9683",
+          "label": "唐朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q707146",
+      "name": "高力士",
+      "birth": "0684-01-01T00:00:00Z",
+      "home": "潘州",
+      "citizenships": [
+        {
+          "qid": "Q9683",
+          "label": "唐朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45624241",
+      "name": "高克從",
+      "birth": "0784-01-01T00:00:00Z",
+      "home": "潘州",
+      "citizenships": [
+        {
+          "qid": "Q9683",
+          "label": "唐朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45625057",
+      "name": "高可方",
+      "birth": "0809-01-01T00:00:00Z",
+      "home": "潘州",
+      "citizenships": [
+        {
+          "qid": "Q9683",
+          "label": "唐朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q6886295",
+      "name": "莫宣卿",
+      "birth": "0834-08-21T00:00:00Z",
+      "home": "封州",
+      "citizenships": [
+        {
+          "qid": "Q9683",
+          "label": "唐朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45397227",
+      "name": "石選",
+      "birth": "1002-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45397230",
+      "name": "石遵",
+      "birth": "1014-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q15909851",
+      "name": "苏缄",
+      "birth": "1016-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45397241",
+      "name": "石賡",
+      "birth": "1024-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q11066741",
+      "name": "张夔",
+      "birth": "1068-01-01T00:00:00Z",
+      "home": "潮州",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45435371",
+      "name": "柯翰",
+      "birth": "1106-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45430258",
+      "name": "石午合",
+      "birth": "1210-01-01T00:00:00Z",
+      "home": "賓州",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45494197",
+      "name": "蒙英昴",
+      "birth": "1229-01-01T00:00:00Z",
+      "home": "韶州",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q10556091",
+      "name": "邱葵",
+      "birth": "1244-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7462",
+          "label": "宋朝"
+        },
+        {
+          "qid": "Q7313",
+          "label": "元朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45543884",
+      "name": "林天祥",
+      "birth": "1297-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q7313",
+          "label": "元朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q45511140",
+      "name": "沈祥",
+      "birth": "1321-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q9903",
+          "label": "明朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q17026996",
+      "name": "梁成",
+      "birth": "1365-01-01T00:00:00Z",
+      "home": "信宜县",
+      "citizenships": [
+        {
+          "qid": "Q9903",
+          "label": "明朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q15938238",
+      "name": "陶成",
+      "birth": "1390-01-01T00:00:00Z",
+      "home": "鬰林州",
+      "citizenships": [
+        {
+          "qid": "Q9903",
+          "label": "明朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q16925604",
+      "name": "葉普亮",
+      "birth": "1414-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q9903",
+          "label": "明朝"
+        }
+      ]
+    },
+    {
+      "qid": "Q16926098",
+      "name": "黃觀",
+      "birth": "1423-01-01T00:00:00Z",
+      "home": "同安縣",
+      "citizenships": [
+        {
+          "qid": "Q9903",
+          "label": "明朝"
+        }
+      ]
+    }
+  ]
+}

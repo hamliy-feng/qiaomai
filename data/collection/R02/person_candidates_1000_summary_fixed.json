@@ -1,0 +1,26 @@
+{
+  "count": 1000,
+  "unique_qids": 1000,
+  "province": {
+    "Guangdong": 731,
+    "Fujian": 269
+  },
+  "scope_status": {
+    "strong_candidate": 533,
+    "medium_candidate": 291,
+    "needs_diaspora_verification": 176
+  },
+  "signals": {
+    "foreign_citizenship": 481,
+    "foreign_residence": 79,
+    "death_abroad": 303,
+    "educated_abroad": 479,
+    "employer_abroad": 170,
+    "member_abroad": 67,
+    "work_location_abroad": 24
+  },
+  "historical_priority": 770,
+  "missing_name": 9,
+  "missing_birth_place": 0,
+  "missing_source_url": 0
+}

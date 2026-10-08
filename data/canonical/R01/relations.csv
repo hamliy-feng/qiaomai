@@ -1,0 +1,27 @@
+relation_id,subject_id,relation_type,object_id,start_date,end_date,source_ids,review_status
+rel_cjk_jimei,person_chen_jiageng,born_at,place_jimei,1874-10-21,,"SRC-CJK-XMU-JGXY|SRC-CJK-TKKF",reviewed
+rel_cjk_singapore,person_chen_jiageng,resided_at,place_singapore,1890,,"SRC-CJK-XMU-ADMISSIONS|SRC-CJK-TKKF",reviewed
+rel_cjk_xiamen,person_chen_jiageng,active_at,place_xiamen,1921,,SRC-CJK-XMU-JGXY,reviewed
+rel_cjk_jimei_schools,person_chen_jiageng,founder_of,org_jimei_schools,1913,,SRC-CJK-XMU-JGXY,reviewed
+rel_cjk_xmu,person_chen_jiageng,founder_of,org_xiamen_university,1921,,"SRC-CJK-XMU-JGXY|SRC-CJK-NLB-IMG",reviewed
+rel_cjk_hokkien,person_chen_jiageng,chair_of,org_singapore_hokkien_huay_kuan,1929,1949,SRC-CJK-NLB-IMG,reviewed
+rel_lkc_nanan,person_li_guangqian,origin_at,place_furong_nanan,1893,,"SRC-LKC-NLB-BIBLIO|SRC-LKC-NLB-FELLOWSHIP",reviewed
+rel_lkc_singapore,person_li_guangqian,resided_at,place_singapore,1903,,"SRC-LKC-NLB-BIBLIO|SRC-LKC-NUS-BENEFACTOR",reviewed
+rel_lkc_tkk_company,person_li_guangqian,employee_of,org_tan_kah_kee_rubber,1916,1928,SRC-LKC-NLB-BIBLIO,reviewed
+rel_lkc_ocbc,person_li_guangqian,founding_leader_of,org_ocbc,1932,,SRC-LKC-OCBC,reviewed
+rel_lkc_lee_foundation,person_li_guangqian,founder_of,org_lee_foundation,1952,,SRC-LKC-NUS-LEEFOUNDATION,reviewed
+rel_aw_yangon,person_hu_wenhu,born_at,place_yangon,1882,,"SRC-AWH-NLB-GUIDE|SRC-AWH-NLB-BIBLIO",reviewed
+rel_aw_fujian,person_hu_wenhu,ancestral_origin,place_fujian_ancestral_aw,,, "SRC-AWH-NLB-BIBLIO|SRC-AWH-HAWPAR",reviewed
+rel_aw_singapore,person_hu_wenhu,resided_at,place_singapore,1926,,"SRC-AWH-NLB-BIBLIO|SRC-AWH-HAWPAR",reviewed
+rel_aw_hawpar,person_hu_wenhu,founder_operator_of,org_haw_par,1909,,SRC-AWH-HAWPAR,reviewed
+rel_aw_sinchew,person_hu_wenhu,founder_of,org_sin_chew_jit_poh,1929,,SRC-AWH-NLB-BIBLIO,reviewed
+rel_wns_minqing,person_huang_naishang,born_at,place_minqing,1849-07-25,,"SRC-WNS-MINQING-GOV|SRC-WNS-NLB-GUIDE",reviewed
+rel_wns_singapore,person_huang_naishang,resided_at,place_singapore,1899,,SRC-WNS-NLB-GUIDE,reviewed
+rel_wns_sibu,person_huang_naishang,active_at,place_sibu,1900,, "SRC-WNS-MINQING-GOV|SRC-WNS-NLB-GUIDE",reviewed
+rel_wns_jit_shin,person_huang_naishang,editor_of,org_jit_shin_pau,1899,,SRC-WNS-NLB-GUIDE,reviewed
+rel_wns_new_foochow,person_huang_naishang,founder_operator_of,org_new_foochow_settlement_company,1900,,SRC-WNS-NLB-GUIDE,reviewed
+rel_wns_tongmenghui,person_huang_naishang,member_of,org_chinese_revolutionary_alliance,1906,,SRC-WNS-NLB-GUIDE,reviewed
+rel_yw_guangdong,person_rong_hong,born_at,place_nanping_xiangshan,1828-11-17,,"SRC-YW-WSU|SRC-YW-YALE-2004",reviewed
+rel_yw_us,person_rong_hong,resided_studied_at,place_united_states,1847,, "SRC-YW-YALE-2004|SRC-YW-GUTENBERG",reviewed
+rel_yw_newhaven,person_rong_hong,studied_at_place,place_new_haven,1850,1854,SRC-YW-YALE-MACMILLAN,reviewed
+rel_yw_yale,person_rong_hong,student_of,org_yale_university,1850,1854,"SRC-YW-YALE-MACMILLAN|SRC-YW-YALE-2004",reviewed

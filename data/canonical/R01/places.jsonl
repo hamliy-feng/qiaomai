@@ -1,0 +1,14 @@
+{"id":"place_jimei","canonical_name":"集美","country":"中国","modern_admin":"福建省厦门市集美区","place_type":"侨乡/城区","review_status":"candidate","source_ids":["SRC-CJK-XMU-JGXY"]}
+{"id":"place_singapore","canonical_name":"新加坡","historical_names":["星洲","新嘉坡"],"country":"新加坡","place_type":"城市国家/主要侨居地","review_status":"candidate","source_ids":["SRC-CJK-TKKF","SRC-LKC-NLB-BIBLIO","SRC-AWH-NLB-BIBLIO","SRC-WNS-NLB-GUIDE"]}
+{"id":"place_xiamen","canonical_name":"厦门","traditional_name":"廈門","english_name":"Xiamen","country":"中国","modern_admin":"福建省厦门市","place_type":"港口/侨乡城市","review_status":"candidate","source_ids":["SRC-CJK-XMU-JGXY"]}
+{"id":"place_furong_nanan","canonical_name":"芙蓉（南安）","country":"中国","modern_admin":"福建省泉州市南安市","place_type":"侨乡","review_status":"candidate","source_ids":["SRC-LKC-NLB-BIBLIO","SRC-LKC-NLB-FELLOWSHIP"]}
+{"id":"place_yangon","canonical_name":"仰光","english_name":"Yangon","historical_names":["Rangoon"],"country":"缅甸","place_type":"城市/侨居地","review_status":"candidate","source_ids":["SRC-AWH-NLB-BIBLIO"]}
+{"id":"place_fujian_ancestral_aw","canonical_name":"胡文虎家族福建祖籍地","country":"中国","modern_admin":"福建省（具体村落待继续核）","place_type":"祖籍候选","review_status":"candidate","source_ids":["SRC-AWH-NLB-BIBLIO","SRC-AWH-HAWPAR"]}
+{"id":"place_minqing","canonical_name":"闽清","traditional_name":"閩清","country":"中国","modern_admin":"福建省福州市闽清县","place_type":"侨乡/祖籍地","review_status":"candidate","source_ids":["SRC-WNS-MINQING-GOV"]}
+{"id":"place_sibu","canonical_name":"诗巫","english_name":"Sibu","country":"马来西亚","modern_admin":"砂拉越","place_type":"华侨聚居地","review_status":"candidate","source_ids":["SRC-WNS-NLB-GUIDE","SRC-WNS-MINQING-GOV"]}
+{"id":"place_nanping_xiangshan","canonical_name":"南屏（香山）","country":"中国","modern_admin":"广东省珠海市南屏镇","place_type":"出生地/侨乡","review_status":"candidate","source_ids":["SRC-YW-WSU","SRC-YW-YALE-2004"]}
+{"id":"place_guangdong","canonical_name":"广东","traditional_name":"廣東","country":"中国","place_type":"省","review_status":"candidate","source_ids":["SRC-YW-YALE-2004"]}
+{"id":"place_united_states","canonical_name":"美国","traditional_name":"美國","english_name":"United States","country":"美国","place_type":"国家/侨居地","review_status":"candidate","source_ids":["SRC-YW-YALE-MACMILLAN"]}
+{"id":"place_new_haven","canonical_name":"纽黑文","english_name":"New Haven","country":"美国","modern_admin":"Connecticut","place_type":"城市","review_status":"candidate","source_ids":["SRC-YW-YALE-MACMILLAN"]}
+{"id":"place_hartford","canonical_name":"哈特福德","english_name":"Hartford","country":"美国","modern_admin":"Connecticut","place_type":"城市","review_status":"candidate","source_ids":["SRC-YW-WSU"]}
+{"id":"place_beijing","canonical_name":"北京","country":"中国","place_type":"城市","review_status":"candidate","source_ids":["SRC-WNS-MINQING-GOV"]}

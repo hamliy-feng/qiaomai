@@ -1,0 +1,23 @@
+{
+  "total_unique": 1185,
+  "selected_1000": 1000,
+  "province": {
+    "Guangong": 0,
+    "Fujian": 269
+  },
+  "scope_status": {
+    "strong_candidate": 0,
+    "medium_candidate": 0,
+    "needs_diaspora_verification": 0
+  },
+  "signals": {
+    "foreign_citizenship": 481,
+    "foreign_residence": 79,
+    "death_abroad": 303,
+    "educated_abroad": 479,
+    "employer_abroad": 170,
+    "member_abroad": 67,
+    "work_location_abroad": 24
+  },
+  "historical_priority": 770
+}

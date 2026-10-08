@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-10-08T08:13:03.321Z",
+  "config": {
+    "mode": "demo",
+    "apiBase": "/api/v1",
+    "project": "侨脉",
+    "dataset": "R02-full-demo"
+  },
+  "counts": {
+    "persons": 1001,
+    "families": 89,
+    "places": 383,
+    "orgs": 126,
+    "events": 2774,
+    "documents": 1208,
+    "qiaopi": 81
+  },
+  "errors": [],
+  "warnings": [],
+  "validation_passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "total": 1000,
+  "basic_ready_candidate": 846,
+  "manual_review": 154,
+  "with_summary": 1000,
+  "with_occupations": 914,
+  "with_overseas_links": 935,
+  "with_family_candidates": 219,
+  "with_org_candidates": 491,
+  "with_image_candidate": 411
+}

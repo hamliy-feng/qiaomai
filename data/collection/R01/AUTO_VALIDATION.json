@@ -1,0 +1,30 @@
+{
+  "batch": "R01",
+  "counts": {
+    "persons": 5,
+    "reviewed_persons": 5,
+    "places": 14,
+    "organizations": 53,
+    "reviewed_organizations": 10,
+    "person_events": 28,
+    "organization_events": 24,
+    "reviewed_events_total": 52,
+    "relations": 26,
+    "source_records": 43,
+    "presentation_persons": 5,
+    "qiaopi_candidates": 81,
+    "qiaopi_canonical": 5,
+    "qiaopi_metadata_reviewed": 5,
+    "qiaopi_documents": 5,
+    "qiaopi_image_checked": 16,
+    "qiaopi_detail_unchecked": 65,
+    "qiaopi_date_needs_review": 12,
+    "qiaopi_normalized_text": 0
+  },
+  "errors": [],
+  "warnings": [
+    "R01 publish gate: page/image checked qiaopi < 30",
+    "R01 publish gate: normalized qiaopi text < 10"
+  ],
+  "publish_gate_passed": false
+}

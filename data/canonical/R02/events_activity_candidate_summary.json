@@ -1,0 +1,13 @@
+{
+  "count": 1092,
+  "by_type": {
+    "residence": 88,
+    "work_location": 33,
+    "education": 654,
+    "association_activity": 99,
+    "employment": 218
+  },
+  "all_date_precision_unknown": true,
+  "timeline_eligible": 0,
+  "relation_card_only": 1092
+}

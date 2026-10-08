@@ -1,0 +1,9 @@
+{
+  "count": 100,
+  "resolved_wikipedia_any_language": 100,
+  "zh_wikipedia_ok": 94,
+  "en_fallback_ok": 6,
+  "unresolved": 0,
+  "with_nonempty_bio": 100,
+  "with_image_candidate": 60
+}

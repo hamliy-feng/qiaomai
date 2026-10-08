@@ -1,0 +1,1 @@
+import fs from "fs";import path from "path";import {fileURLToPath} from "url";const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");const s=fs.readFileSync(path.join(ROOT,"frontend","assets","data.js"),"utf8");const term="候选";let i=s.indexOf(term);console.log(s.slice(Math.max(0,i-300),i+300));

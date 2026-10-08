@@ -1,0 +1,309 @@
+{
+  "count": 1000,
+  "unique_qids": 1000,
+  "original_kept": 935,
+  "replacements": 65,
+  "scope_audit_status": {
+    "keep_high": 638,
+    "keep_medium": 209,
+    "manual_review": 153,
+    "likely_out_of_scope": 0
+  },
+  "province": {
+    "Guangdong": 741,
+    "Fujian": 259
+  },
+  "with_wikipedia_zh": 774,
+  "with_wikipedia_en": 541,
+  "with_image_candidate": 411,
+  "replacement_samples": [
+    {
+      "qid": "Q1036871",
+      "name": "伍连德",
+      "traditional": "伍連德",
+      "english": "Wu Lien-teh",
+      "home": "台山市",
+      "birth": "1879-01-01T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q833",
+          "label": "馬來西亞"
+        }
+      ]
+    },
+    {
+      "qid": "Q6548738",
+      "name": "林义顺",
+      "traditional": "林義順",
+      "english": "Lim Nee Soon",
+      "home": "潮陽縣",
+      "birth": "1879-11-12T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q334",
+          "label": "新加坡"
+        }
+      ]
+    },
+    {
+      "qid": "Q96659503",
+      "name": "廖城兰",
+      "traditional": "廖城蘭",
+      "english": "Jacky Liew",
+      "home": "广东省",
+      "birth": "1901-00-00T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q833",
+          "label": "馬來西亞"
+        }
+      ]
+    },
+    {
+      "qid": "Q15898740",
+      "name": "李化",
+      "traditional": "李化",
+      "english": "Lee Fa",
+      "home": "新会区",
+      "birth": "1909-09-23T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q36145900",
+      "name": "何日华",
+      "traditional": "何日華",
+      "english": "Ho Rih Hwa",
+      "home": "新会区",
+      "birth": "1917-00-00T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q334",
+          "label": "新加坡"
+        }
+      ]
+    },
+    {
+      "qid": "Q11068442",
+      "name": "张蕙芳",
+      "traditional": "張蕙芳",
+      "english": "Cheung Wai-fong",
+      "home": "番禺县",
+      "birth": "1918-00-00T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q118601512",
+      "name": "区百龄",
+      "traditional": "區百齡",
+      "english": "Au Bak Ling",
+      "home": "新会区",
+      "birth": "1928-05-13T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q6852646",
+      "name": "刘兆铭",
+      "traditional": "劉兆銘",
+      "english": "Lau Siu-ming",
+      "home": "龙口镇",
+      "birth": "1931-10-13T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q589762",
+      "name": "罗兰",
+      "traditional": "羅蘭",
+      "english": "Helena Law",
+      "home": "番禺区",
+      "birth": "1934-11-13T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q6497659",
+      "name": "刘皇发",
+      "traditional": "劉皇發",
+      "english": "Lau Wong-fat",
+      "home": "惠阳区",
+      "birth": "1936-10-15T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q8044053",
+      "name": "西西",
+      "traditional": "西西",
+      "english": "Xi Xi",
+      "home": "中山市",
+      "birth": "1937-10-07T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q4215838",
+      "name": "吴耀汉",
+      "traditional": "吳耀漢",
+      "english": "Richard Ng",
+      "home": "潮州市",
+      "birth": "1939-12-17T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q16397",
+      "name": "李小龙",
+      "traditional": "李小龍",
+      "english": "Bruce Lee",
+      "home": "顺德区",
+      "birth": "1940-11-27T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        },
+        {
+          "qid": "Q30",
+          "label": "美國"
+        }
+      ]
+    },
+    {
+      "qid": "Q709317",
+      "name": "黄霑",
+      "traditional": "黃霑",
+      "english": "James Wong",
+      "home": "番禺区",
+      "birth": "1941-03-18T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q842349",
+      "name": "蔡澜",
+      "traditional": "蔡瀾",
+      "english": "Chua Lam",
+      "home": "潮州市",
+      "birth": "1941-08-18T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q334",
+          "label": "新加坡"
+        }
+      ]
+    },
+    {
+      "qid": "Q4922395",
+      "name": "梁小龙",
+      "traditional": "梁小龍",
+      "english": "Bruce Leung",
+      "home": "中山市",
+      "birth": "1948-04-28T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        },
+        {
+          "qid": "Q145",
+          "label": "英国"
+        }
+      ]
+    },
+    {
+      "qid": "Q317814",
+      "name": "徐克",
+      "traditional": "徐克",
+      "english": "Tsui Hark",
+      "home": "海豐縣",
+      "birth": "1951-02-01T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q881",
+          "label": "越南"
+        }
+      ]
+    },
+    {
+      "qid": "Q701707",
+      "name": "黄毓民",
+      "traditional": "黃毓民",
+      "english": "Wong Yuk-man",
+      "home": "陆丰市",
+      "birth": "1951-10-01T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q145",
+          "label": "英国"
+        }
+      ]
+    },
+    {
+      "qid": "Q835316",
+      "name": "梁锦松",
+      "traditional": "梁錦松",
+      "english": "Antony Leung",
+      "home": "顺德区",
+      "birth": "1952-01-29T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    },
+    {
+      "qid": "Q6267382",
+      "name": "颜国梁",
+      "traditional": "顏國樑",
+      "english": "Johnny Ngan",
+      "home": "汕尾市",
+      "birth": "1953-05-17T00:00:00Z",
+      "citizenships": [
+        {
+          "qid": "Q1054923",
+          "label": "英屬香港"
+        }
+      ]
+    }
+  ]
+}

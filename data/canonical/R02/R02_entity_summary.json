@@ -1,0 +1,11 @@
+{
+  "persons": 1000,
+  "events": 1616,
+  "places": 374,
+  "person_place_relations": 1459,
+  "person_org_relations": 971,
+  "family_relations": 414,
+  "family_relations_internal": 40,
+  "sources": 1000,
+  "persons_with_image_candidate": 411
+}

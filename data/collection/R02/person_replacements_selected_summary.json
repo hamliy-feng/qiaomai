@@ -1,0 +1,45 @@
+{
+  "keep": 935,
+  "rejected": 65,
+  "reserve_eligible": 4,
+  "needed": 65,
+  "selected": 4,
+  "selected_samples": [
+    {
+      "qid": "Q930462",
+      "name": "蔡国強",
+      "province": "Fujian",
+      "signals": [
+        "work_location_abroad"
+      ],
+      "score": 12
+    },
+    {
+      "qid": "Q47671762",
+      "name": "余艾冰",
+      "province": "Guangdong",
+      "signals": [
+        "employer_abroad"
+      ],
+      "score": 12
+    },
+    {
+      "qid": "Q55521992",
+      "name": "陈建",
+      "province": "Fujian",
+      "signals": [
+        "employer_abroad"
+      ],
+      "score": 12
+    },
+    {
+      "qid": "Q18752663",
+      "name": "许立志",
+      "province": "Guangdong",
+      "signals": [
+        "employer_abroad"
+      ],
+      "score": 11
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+candidate_id,event_type,title,date_raw,person_candidate_id,place_raw,source_url,review_status,note
+EV-R01-001,birth,陈嘉庚出生,1874-10-21,PSEED-001,集美,https://www.wikidata.org/wiki/Q709049,candidate,Wikidata structured seed
+EV-R01-002,migration,李光前赴新加坡,1903,PSEED-002,"芙蓉（福建南安）→新加坡",https://biblioasia.nlb.gov.sg/all-sections/vol-4-issue2-jul-2008-entrepreneur-philanthropist-remembered/,candidate,NLB BiblioAsia explicitly states move at age 10
+EV-R01-003,birth,胡文虎出生,1882,PSEED-003,Rangoon,https://reference.nlb.gov.sg/singapore/people/aw-boon-haw/,candidate,NLB reference guide
+EV-R01-004,migration,胡文虎迁至新加坡,1926,PSEED-003,"Rangoon/ancestral Fujian context → Singapore",https://biblioasia.nlb.gov.sg/all-sections/vol-1-issue2-feb-2006-autobiographies-biographies-chinese-diaspora/,candidate,NLB BiblioAsia
+EV-R01-005,birth,黄乃裳出生,1849,PSEED-008,闽清,https://www.wikidata.org/wiki/Q2221606,candidate_disputed,Wikidata also contains conflicting 1844 reference
+EV-R01-006,death,黄乃裳去世,1924-09-22,PSEED-008,闽清,https://www.wikidata.org/wiki/Q2221606,candidate,Wikidata with authority references
+EV-R01-007,birth,容闳出生,1828-11-17,PSEED-015,广东,https://macmillan.yale.edu/eastasia/yung-wing,candidate,Yale MacMillan Center
+EV-R01-008,migration,容闳赴美国求学,1847,PSEED-015,"广东/澳门附近→美国",https://news.yale.edu/2000/05/05/yung-wing-portrait-unveiled-chinese-consul-general-yale-ceremony,candidate,Yale News states accompanied Brown to US in 1847
+EV-R01-009,education,容闳入读耶鲁学院,1850,PSEED-015,Yale College,https://macmillan.yale.edu/eastasia/yung-wing,candidate,Yale source
+EV-R01-010,education,容闳从耶鲁毕业,1854,PSEED-015,Yale College,https://macmillan.yale.edu/eastasia/yung-wing,candidate,Yale source
+EV-R01-011,education,容闳推动中国留美幼童计划,1870s,PSEED-015,美国,https://macmillan.yale.edu/eastasia/yung-wing,candidate,Date needs more precise source before reviewed
+EV-R01-012,birth,陈芳出生,c.1825,PSEED-019,广东梅溪,https://en.wikipedia.org/wiki/Chun_Afong,candidate,C-level seed
+EV-R01-013,migration,陈芳移居夏威夷,1849,PSEED-019,"广东→夏威夷",https://en.wikipedia.org/wiki/Chun_Afong,candidate,Upgrade with archival biography required
+EV-R01-014,appointment,陈芳获任夏威夷王国贵族/商业代理相关职务,1879,PSEED-019,夏威夷,https://data.capitol.hawaii.gov/sessions/session2010/BillsOrig/HR218_.pdf,candidate,Hawaii legislative document; exact title relationship to be normalized
+EV-R01-015,education,陈六使相关代表团会谈推动南洋大学筹建,1954-01-29,PSEED-007,新加坡,https://www.nlb.gov.sg/main/image-detail?cmsuuid=3a15cb9e-7909-447f-88d6-3a2956fb7871,candidate,NLB image metadata names Tan Lark Sye and delegates; canonical person verification pending

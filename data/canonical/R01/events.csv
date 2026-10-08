@@ -1,0 +1,29 @@
+event_id,event_type,title,date_raw,date_start,date_end,date_precision,person_ids,place_ids,organization_ids,source_ids,importance,review_status
+event_cjk_birth,birth,陈嘉庚出生,1874-10-21,1874-10-21,,day,person_chen_jiageng,place_jimei,,"SRC-CJK-XMU-JGXY|SRC-CJK-TKKF",5,reviewed
+event_cjk_singapore_1890,migration,陈嘉庚赴新加坡,1890,1890,,,person_chen_jiageng,"place_jimei|place_singapore",,"SRC-CJK-XMU-ADMISSIONS|SRC-CJK-TKKF",5,reviewed
+event_cjk_jimei_school_1913,founded_org,创办集美小学,1913,1913,,,person_chen_jiageng,place_jimei,org_jimei_schools,SRC-CJK-XMU-JGXY,5,reviewed
+event_cjk_xmu_1921,founded_org,创办厦门大学,1921,1921,,,person_chen_jiageng,place_xiamen,org_xiamen_university,"SRC-CJK-XMU-JGXY|SRC-CJK-NLB-IMG",5,reviewed
+event_cjk_hokkien_chair_1929,appointment,出任新加坡福建会馆主席,1929-1949,1929,1949,range,person_chen_jiageng,place_singapore,org_singapore_hokkien_huay_kuan,SRC-CJK-NLB-IMG,4,reviewed
+event_lkc_birth,birth,李光前出生,1893,1893,,,person_li_guangqian,place_furong_nanan,,"SRC-LKC-NLB-FELLOWSHIP|SRC-LKC-NLB-BIBLIO",5,reviewed
+event_lkc_singapore_1903,migration,李光前赴新加坡,1903,1903,,,person_li_guangqian,"place_furong_nanan|place_singapore",,"SRC-LKC-NLB-BIBLIO|SRC-LKC-NUS-BENEFACTOR",5,reviewed
+event_lkc_tkk_1916,appointment,进入陈嘉庚企业工作,1916,1916,,,person_li_guangqian,place_singapore,org_tan_kah_kee_rubber,SRC-LKC-NLB-BIBLIO,4,reviewed
+event_lkc_ocbc_1932,founded_org,推动三家银行合并成立华侨银行,1932,1932,,,person_li_guangqian,place_singapore,org_ocbc,SRC-LKC-OCBC,5,reviewed
+event_lkc_foundation_1952,founded_org,创立李氏基金,1952,1952,,,person_li_guangqian,place_singapore,org_lee_foundation,SRC-LKC-NUS-LEEFOUNDATION,5,reviewed
+event_lkc_library_1953,donation,捐资建设免费公共图书馆,1953,1953,,,person_li_guangqian,place_singapore,org_national_library_singapore,SRC-LKC-NLB-LIBRARY,4,reviewed
+event_aw_birth,birth,胡文虎出生,1882,1882,,,person_hu_wenhu,place_yangon,,"SRC-AWH-NLB-GUIDE|SRC-AWH-NLB-BIBLIO",5,reviewed
+event_aw_tigerbalm_1909,founded_business,虎标品牌形成,1909,1909,,,person_hu_wenhu,place_yangon,org_haw_par,SRC-AWH-HAWPAR,4,reviewed
+event_aw_singapore_1926,migration,胡文虎迁居新加坡并扩展事业,1926,1926,,,person_hu_wenhu,"place_yangon|place_singapore",org_haw_par,"SRC-AWH-NLB-BIBLIO|SRC-AWH-HAWPAR",5,reviewed
+event_aw_sinchew_1929,founded_org,创办《星洲日报》相关报业,约1929,1929,,year,person_hu_wenhu,place_singapore,org_sin_chew_jit_poh,SRC-AWH-NLB-BIBLIO,4,reviewed
+event_aw_villa_1937,founded_business,虎豹别墅建成,1937,1937,,,person_hu_wenhu,place_singapore,org_haw_par,"SRC-AWH-HAWPAR|SRC-AWH-NAS-VILLA",4,reviewed
+event_aw_death_1954,death,胡文虎去世,1954,1954,,,person_hu_wenhu,,, "SRC-AWH-NLB-GUIDE|SRC-AWH-HAWPAR",5,reviewed
+event_wns_birth,birth,黄乃裳出生,1849-07-25,1849-07-25,,day,person_huang_naishang,place_minqing,,"SRC-WNS-MINQING-GOV|SRC-WNS-NLB-GUIDE",5,reviewed
+event_wns_reform_1895,political_social,参与公车上书相关维新活动,1895,1895,,,person_huang_naishang,place_beijing,,SRC-WNS-MINQING-GOV,4,reviewed
+event_wns_singapore_1899,migration,黄乃裳举家赴新加坡,1899,1899,,,person_huang_naishang,"place_minqing|place_singapore",org_jit_shin_pau,SRC-WNS-NLB-GUIDE,5,reviewed
+event_wns_sibu_settlement,migration,推动福州移民赴诗巫开垦,约1900,1900,,year,person_huang_naishang,"place_singapore|place_sibu",org_new_foochow_settlement_company,"SRC-WNS-MINQING-GOV|SRC-WNS-NLB-GUIDE",5,reviewed
+event_wns_tongmenghui_1906,association_activity,加入中国同盟会,1906,1906,,,person_huang_naishang,place_singapore,org_chinese_revolutionary_alliance,SRC-WNS-NLB-GUIDE,4,reviewed
+event_wns_death_1924,death,黄乃裳去世,1924-09-22,1924-09-22,,day,person_huang_naishang,place_minqing,,"SRC-WNS-MINQING-GOV|SRC-WNS-NLB-GUIDE",5,reviewed
+event_yw_birth,birth,容闳出生,1828-11-17,1828-11-17,,day,person_rong_hong,place_nanping_xiangshan,,"SRC-YW-YALE-MACMILLAN|SRC-YW-WSU",5,reviewed
+event_yw_us_1847,migration,容闳赴美国求学,1847,1847,,,person_rong_hong,"place_guangdong|place_united_states",,"SRC-YW-YALE-2004|SRC-YW-GUTENBERG",5,reviewed
+event_yw_yale_1850,education,容闳进入耶鲁学院,1850,1850,,,person_rong_hong,place_new_haven,org_yale_university,SRC-YW-YALE-MACMILLAN,5,reviewed
+event_yw_grad_1854,education,容闳从耶鲁毕业,1854,1854,,,person_rong_hong,place_new_haven,org_yale_university,"SRC-YW-YALE-MACMILLAN|SRC-YW-YALE-2004",5,reviewed
+event_yw_cem_1870s,education,推动中国留美幼童教育计划,1870s,1870,1879,decade,person_rong_hong,"place_united_states",, "SRC-YW-YALE-MACMILLAN|SRC-YW-YALE-2004|SRC-YW-GUTENBERG",5,reviewed

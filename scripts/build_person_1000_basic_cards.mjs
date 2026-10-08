@@ -1,0 +1,10 @@
+import fs from "fs";import path from "path";import {fileURLToPath} from "url";
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),".."),R=path.join(ROOT,"data","collection","R02"),P=path.join(ROOT,"data","presentation","R02");
+const people=fs.readFileSync(path.join(R,"person_candidates_1000_scope_audited.jsonl"),"utf8").split(/\r?\n/).filter(Boolean).map(JSON.parse);
+const preview=fs.readFileSync(path.join(P,"persons_1000_preview.jsonl"),"utf8").split(/\r?\n/).filter(Boolean).map(JSON.parse);
+const audit=new Map(people.map(x=>[x.qid,x]));
+const out=preview.map(x=>{const a=audit.get(x.qid)||{};return {...x,scope_audit_status:a.scope_audit_status||"unknown",scope_audit_reasons:a.scope_audit_reasons||[],frontend_readiness:["keep_high","keep_medium"].includes(a.scope_audit_status)?"basic_ready_candidate":"manual_review",publication_status:"preview_only"}});
+fs.writeFileSync(path.join(P,"persons_1000_basic_cards.jsonl"),out.map(x=>JSON.stringify(x)).join("\n")+"\n","utf8");
+const summary={total:out.length,basic_ready_candidate:out.filter(x=>x.frontend_readiness==="basic_ready_candidate").length,manual_review:out.filter(x=>x.frontend_readiness==="manual_review").length,with_summary:out.filter(x=>x.summary).length,with_occupations:out.filter(x=>x.occupations?.length).length,with_overseas_links:out.filter(x=>x.overseas_links?.length).length,with_family_candidates:out.filter(x=>x.family_candidates?.length).length,with_org_candidates:out.filter(x=>x.organization_candidates?.length).length,with_image_candidate:out.filter(x=>x.image_candidate).length};
+fs.writeFileSync(path.join(P,"persons_1000_basic_cards_summary.json"),JSON.stringify(summary,null,2),"utf8");
+console.log(JSON.stringify(summary,null,2));

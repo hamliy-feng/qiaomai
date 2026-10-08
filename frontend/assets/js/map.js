@@ -1,0 +1,19 @@
+/* Local Natural Earth geo + ECharts; script data also works under file://. */
+window.QM_MAP=(()=>{
+ const coords={'pl-jimei':[118.1,24.57],'pl-xiamen':[118.08,24.48],'pl-nanan':[118.38,24.96],'pl-yongding':[116.73,24.72],'pl-kaiping':[112.7,22.38],'pl-xiangshan':[113.38,22.52],'pl-singapore':[103.82,1.35],'pl-sanfrancisco':[-122.42,37.77],'pl-us':[-98.5,39.8]};
+ const maps=new Map;let serial=0;
+ const coordinate=p=>{const c=p.coordinates||(window.QM_REPO.mode==='demo'?coords[p.id]:null);return Array.isArray(c)&&c.length===2&&c.every(Number.isFinite)&&Math.abs(c[0])<=180&&Math.abs(c[1])<=90?c:null};
+ function element(ids,options={}){const id='map-'+(++serial);return `<div class="map-frame ${options.cls||''}" ${options.height?`style="height:${options.height}px"`:''}><div class="map-canvas" role="img" aria-label="地点关联地图" data-map="${id}" data-map-ids="${window.QM.e(JSON.stringify(ids||[]))}" data-map-active="${window.QM.e(options.active||'')}" data-map-click="${options.click?'true':'false'}"></div>${options.controls?'<div class="map-scope"><button data-map-scope="world" class="active">世界</button><button data-map-scope="china">中国</button></div><div class="map-controls"><button data-map-zoom="1.25" aria-label="放大地图">+</button><button data-map-zoom="0.8" aria-label="缩小地图">−</button></div>':''}<span class="map-caption">${window.QM_REPO.mode==='demo'?'演示关联路线 · ':''}Natural Earth</span></div>`}
+ function mount(root=document){if(!window.echarts||!window.QM_WORLD)return;
+  if(!echarts.getMap('qm-world'))echarts.registerMap('qm-world',window.QM_WORLD);
+  root.querySelectorAll('[data-map]').forEach(el=>{if(maps.has(el))return;const Q=window.QM;const ids=JSON.parse(el.dataset.mapIds),places=ids.map(id=>Q.get('place',id)).filter(p=>p&&coordinate(p));const points=places.map(p=>({name:p.title,value:coordinate(p),id:p.id}));const active=points.find(p=>p.id===el.dataset.mapActive)||points.find(p=>p.id==='pl-singapore')||points[0];const lines=active?points.filter(p=>p!==active).map(p=>({coords:[p.value,active.value]})):[];const chart=echarts.init(el,null,{renderer:'svg'});maps.set(el,chart);
+   chart.setOption({animation:false,tooltip:{trigger:'item',formatter:p=>p.seriesType==='scatter'?Q.e(p.name):'关联路线示意',backgroundColor:'#fffaf0',borderColor:'#d5b58c',textStyle:{color:'#5b422b',fontSize:12}},geo:{map:'qm-world',roam:true,center:[12,12],zoom:1.12,boundingCoords:[[-180,83],[180,-60]],itemStyle:{areaColor:'#eaddc5',borderColor:'#f6eddd',borderWidth:.45},emphasis:{disabled:true},silent:false},series:[{type:'lines',coordinateSystem:'geo',data:lines,silent:true,lineStyle:{color:'#a44d38',width:1.3,opacity:.65,curveness:.23},z:3},{type:'scatter',coordinateSystem:'geo',data:points,symbolSize:p=>p[0]===active?.value[0]&&p[1]===active?.value[1]?13:9,itemStyle:{color:'#a44d38',borderWidth:2,borderColor:'#fffaf0'},label:{show:true,formatter:'{b}',position:'right',distance:5,color:'#66462c',fontSize:12},labelLayout:{hideOverlap:true},emphasis:{scale:1.3},z:5}]});
+   chart.on('click',p=>{if(p.seriesType==='scatter'&&el.dataset.mapClick==='true')el.dispatchEvent(new CustomEvent('qm:place',{bubbles:true,detail:{id:p.data.id}}))});
+   const ro=new ResizeObserver(()=>chart.resize());ro.observe(el);chart._qmObserver=ro;
+   const frame=el.parentElement;frame.querySelectorAll('[data-map-zoom]').forEach(b=>b.onclick=()=>{const geo=chart.getOption().geo[0];chart.setOption({geo:{zoom:Math.min(8,Math.max(.7,geo.zoom*Number(b.dataset.mapZoom)))}})});
+   frame.querySelectorAll('[data-map-scope]').forEach(b=>b.onclick=()=>{frame.querySelectorAll('[data-map-scope]').forEach(n=>n.classList.toggle('active',n===b));chart.setOption({geo:b.dataset.mapScope==='china'?{center:[108,32],zoom:3.8}:{center:[12,12],zoom:1.12}})});
+  })
+ }
+ function disposeWithin(root){for(const [el,c] of maps){if(root.contains(el)){c._qmObserver?.disconnect();c.dispose();maps.delete(el)}}}
+ return {element,mount,disposeWithin,coords};
+})();

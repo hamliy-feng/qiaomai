@@ -1,0 +1,5 @@
+import fs from "fs";import path from "path";import {fileURLToPath} from "url";
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),".."),p=path.join(ROOT,"data","canonical","R02","organizations_merged_v4.jsonl");
+const rows=fs.readFileSync(p,"utf8").split(/\r?\n/).filter(Boolean).map(JSON.parse);
+const cand=rows.filter(x=>x.review_status==="candidate_normalized").map(x=>({id:x.id,name:x.canonical_name,founded:x.founded_date,scope:x.scope_relation||x.locality_group,country:x.country||null,city:x.city||null,sources:(x.source_ids||[]).length,source_ids:x.source_ids||[],address:x.sfcca_directory?.address||x.address||null,website:x.sfcca_directory?.website||x.website||null})).sort((a,b)=>((b.sources>=2)+(!!b.founded)+(!!b.address)+(!!b.website))-((a.sources>=2)+(!!a.founded)+(!!a.address)+(!!a.website)));
+console.log(JSON.stringify(cand.slice(0,40),null,2));

@@ -1,0 +1,367 @@
+{
+  "families_with_2plus_relations": 89,
+  "priority_family_review": 19,
+  "basic_family_candidate": 29,
+  "top30": [
+    {
+      "id": "family_wd_Q8573",
+      "name": "孙中山家族",
+      "relations": 11,
+      "internal": 3,
+      "summary": {
+        "parents": 2,
+        "spouses": 5,
+        "children": 4
+      },
+      "score": 28
+    },
+    {
+      "id": "family_wd_Q1322162",
+      "name": "黄奕聪家族",
+      "relations": 13,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 3,
+        "children": 10
+      },
+      "score": 20
+    },
+    {
+      "id": "family_wd_Q701897",
+      "name": "孙科家族",
+      "relations": 9,
+      "internal": 2,
+      "summary": {
+        "parents": 2,
+        "spouses": 1,
+        "children": 6
+      },
+      "score": 20
+    },
+    {
+      "id": "family_wd_Q559957",
+      "name": "严复家族",
+      "relations": 12,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 3,
+        "children": 9
+      },
+      "score": 19
+    },
+    {
+      "id": "family_wd_Q84018",
+      "name": "郑经家族",
+      "relations": 7,
+      "internal": 1,
+      "summary": {
+        "parents": 2,
+        "spouses": 2,
+        "children": 3
+      },
+      "score": 16
+    },
+    {
+      "id": "family_wd_Q712093",
+      "name": "李海泉家族",
+      "relations": 7,
+      "internal": 1,
+      "summary": {
+        "parents": 1,
+        "spouses": 1,
+        "children": 5
+      },
+      "score": 15
+    },
+    {
+      "id": "family_wd_Q708894",
+      "name": "卢慕贞家族",
+      "relations": 4,
+      "internal": 3,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 3
+      },
+      "score": 14
+    },
+    {
+      "id": "family_wd_Q379836",
+      "name": "梁启超家族",
+      "relations": 8,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 0,
+        "children": 7
+      },
+      "score": 13
+    },
+    {
+      "id": "family_wd_Q7647388",
+      "name": "蔡云辉家族",
+      "relations": 7,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 6
+      },
+      "score": 12
+    },
+    {
+      "id": "family_wd_Q16397",
+      "name": "李小龙家族",
+      "relations": 5,
+      "internal": 1,
+      "summary": {
+        "parents": 2,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 12
+    },
+    {
+      "id": "family_wd_Q712401",
+      "name": "林绍良家族",
+      "relations": 5,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 4
+      },
+      "score": 10
+    },
+    {
+      "id": "family_wd_Q374757",
+      "name": "冰心家族",
+      "relations": 5,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 1,
+        "children": 3
+      },
+      "score": 10
+    },
+    {
+      "id": "family_wd_Q20688622",
+      "name": "林熊祥家族",
+      "relations": 5,
+      "internal": 0,
+      "summary": {
+        "parents": 2,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 10
+    },
+    {
+      "id": "family_wd_Q709890",
+      "name": "唐绍仪家族",
+      "relations": 5,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 0,
+        "children": 5
+      },
+      "score": 9
+    },
+    {
+      "id": "family_wd_Q2221606",
+      "name": "黄乃裳家族",
+      "relations": 4,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 0,
+        "children": 4
+      },
+      "score": 8
+    },
+    {
+      "id": "family_wd_Q709049",
+      "name": "陈嘉庚家族",
+      "relations": 4,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 0,
+        "children": 4
+      },
+      "score": 8
+    },
+    {
+      "id": "family_wd_Q2146157",
+      "name": "谢贤家族",
+      "relations": 4,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 2,
+        "children": 2
+      },
+      "score": 8
+    },
+    {
+      "id": "family_wd_Q6362326",
+      "name": "康同璧家族",
+      "relations": 4,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 8
+    },
+    {
+      "id": "family_wd_Q22100096",
+      "name": "孙娫家族",
+      "relations": 2,
+      "internal": 2,
+      "summary": {
+        "parents": 2,
+        "spouses": 0,
+        "children": 0
+      },
+      "score": 8
+    },
+    {
+      "id": "family_wd_Q46868",
+      "name": "贝聿铭家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 1,
+        "children": 1
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q5924262",
+      "name": "吴宪家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 1,
+        "children": 1
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q3847031",
+      "name": "李光前家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 0,
+        "children": 3
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q7440472",
+      "name": "佘有进家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 0,
+        "children": 3
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q6668636",
+      "name": "陆佑家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q136307387",
+      "name": "Moo Yet For家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q5114271",
+      "name": "利希慎家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 0,
+        "children": 2
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q15998837",
+      "name": "Liem Seeng Tee家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q163830",
+      "name": "叶问家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 0,
+        "spouses": 1,
+        "children": 2
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q14396343",
+      "name": "罗文锦家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 2,
+        "spouses": 0,
+        "children": 1
+      },
+      "score": 6
+    },
+    {
+      "id": "family_wd_Q5105389",
+      "name": "伍柏林家族",
+      "relations": 3,
+      "internal": 0,
+      "summary": {
+        "parents": 1,
+        "spouses": 0,
+        "children": 2
+      },
+      "score": 6
+    }
+  ]
+}

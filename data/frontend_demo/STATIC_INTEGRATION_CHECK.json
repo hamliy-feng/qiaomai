@@ -1,0 +1,76 @@
+{
+  "parse": [
+    {
+      "file": "frontend/assets/data.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/core.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/image-viewer.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/pages/home.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/pages/place.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/pages/org.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/pages/research.js",
+      "ok": true
+    },
+    {
+      "file": "frontend/assets/js/pages/qiaopi.js",
+      "ok": true
+    }
+  ],
+  "samples": [
+    {
+      "name": "陈嘉庚",
+      "id": "person_wd_Q709049",
+      "events": 7,
+      "places": 3,
+      "sources": 7
+    },
+    {
+      "name": "李光前",
+      "id": "person_wd_Q3847031",
+      "events": 9,
+      "places": 3,
+      "sources": 9
+    },
+    {
+      "name": "胡文虎",
+      "id": "person_hu_wenhu",
+      "events": 6,
+      "places": 3,
+      "sources": 4
+    },
+    {
+      "name": "黄乃裳",
+      "id": "person_wd_Q2221606",
+      "events": 8,
+      "places": 3,
+      "sources": 5
+    },
+    {
+      "name": "容闳",
+      "id": "person_wd_Q1353934",
+      "events": 9,
+      "places": 5,
+      "sources": 7
+    }
+  ],
+  "data_js_bytes": 3117279,
+  "old_q001_in_qiaopi_page": false,
+  "pass": true
+}

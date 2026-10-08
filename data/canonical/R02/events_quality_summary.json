@@ -1,0 +1,14 @@
+{
+  "total": 1616,
+  "front_end_candidate": 1344,
+  "manual_review": 272,
+  "scope_blocked": 0,
+  "by_type": {
+    "birth": 968,
+    "death": 648
+  },
+  "frontend_by_type": {
+    "birth": 815,
+    "death": 529
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "project": "侨脉",
+  "slug": "qiaomai",
+  "updated_at": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "repository": "https://github.com/hamliy-feng/qiaomai",
+  "default_branch": "main",
+  "visibility": "public",
+  "read_access": "anonymous",
+  "raw_base": "https://raw.githubusercontent.com/hamliy-feng/qiaomai/main/",
+  "entrypoints": {
+    "overview": "README.md",
+    "report_guide": "REPORT_GUIDE.md",
+    "status": "FRONTEND_STATUS.md",
+    "documents": "docs/README.md",
+    "frontend": "frontend/index.html",
+    "data_manifest": "data/frontend_demo/MANIFEST.json",
+    "data": "data/frontend_demo/frontend_demo_database.json",
+    "validation": "data/frontend_demo/VALIDATION.json",
+    "static_integration": "data/frontend_demo/STATIC_INTEGRATION_CHECK.json",
+    "media_licenses": "frontend/assets/media/media_manifest.json"
+  },
+  "technology": ["HTML", "CSS", "Vanilla JavaScript", "Python", "Node.js"],
+  "runtime_mode": "demo",
+  "counts": {"persons": 1001, "families": 89, "places": 383, "orgs": 126, "events": 2774, "documents": 1208, "qiaopi": 81},
+  "qiaopi_clean_original": 0,
+  "pages": ["index", "person", "family", "place", "event", "org", "archive", "qiaopi", "research", "search", "qiaopi-workbench"],
+  "data_layers": ["data/collection", "data/canonical", "data/presentation", "data/release", "data/frontend_demo"],
+  "limitations": [
+    "Record counts describe the frontend demonstration dataset, not fully verified historical facts.",
+    "Production backend, account authentication, Evidence and OCR services are not connected.",
+    "Current full-dataset browser smoke verification is pending.",
+    "Earlier 55 viewport, 19 interaction and 10 offline checks describe the earlier small demonstration dataset."
+  ],
+  "excluded_local_content": [".agent_memory/", ".playwright-mcp/", "*.log", "*.zip", "*.b64", "data/collection/R02/qiaopi_media_samples/", "data/collection/R02/qiaopi_review_thumbnails/", "data/media_original/"],
+  "citation": "Record the commit SHA, access date and file paths; cite original sources for historical claims."
+}

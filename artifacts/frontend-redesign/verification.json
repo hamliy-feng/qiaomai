@@ -1,0 +1,808 @@
+{
+  "date": "2026-10-08",
+  "base": "http://127.0.0.1:8767/",
+  "matrix": [
+    {
+      "route": "index",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "person",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "family",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "place",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "event",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "org",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "archive",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "research",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "search",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi-workbench",
+      "width": 1440,
+      "pass": true,
+      "scroll": 1440,
+      "client": 1440,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "index",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "person",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "family",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "place",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "event",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "org",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "archive",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "research",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "search",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi-workbench",
+      "width": 1672,
+      "pass": true,
+      "scroll": 1672,
+      "client": 1672,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "index",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "person",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "family",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "place",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "event",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "org",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "archive",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "research",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "search",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi-workbench",
+      "width": 1920,
+      "pass": true,
+      "scroll": 1920,
+      "client": 1920,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "index",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "person",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "family",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "place",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "event",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "org",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "archive",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "research",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "search",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi-workbench",
+      "width": 1024,
+      "pass": true,
+      "scroll": 1024,
+      "client": 1024,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "index",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "person",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "family",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "place",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "event",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "org",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "archive",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "research",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 1,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "search",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    },
+    {
+      "route": "qiaopi-workbench",
+      "width": 390,
+      "pass": true,
+      "scroll": 390,
+      "client": 390,
+      "failed": false,
+      "broken": [],
+      "maps": 0,
+      "runtimeErrors": [],
+      "resourceErrors": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "人物检索、选中态和详情联动",
+      "passed": true
+    },
+    {
+      "name": "组合筛选和无结果状态",
+      "passed": true
+    },
+    {
+      "name": "家族三代、单代和人物节点",
+      "passed": true
+    },
+    {
+      "name": "家族迁徙筛选",
+      "passed": true
+    },
+    {
+      "name": "地点列表、地图 zoom 和中国视图",
+      "passed": true
+    },
+    {
+      "name": "地图真实节点点击更新地点",
+      "passed": true
+    },
+    {
+      "name": "事件类型筛选、清除和排序",
+      "passed": true
+    },
+    {
+      "name": "组织类型与地区组合筛选",
+      "passed": true
+    },
+    {
+      "name": "档案分面筛选和三个 tab",
+      "passed": true
+    },
+    {
+      "name": "档案收藏持久化",
+      "passed": true
+    },
+    {
+      "name": "侨批阅读器缩放、全屏和无图状态",
+      "passed": true
+    },
+    {
+      "name": "阅读器翻页与媒体准入门槛",
+      "passed": true
+    },
+    {
+      "name": "人物对比和其余三个分析入口",
+      "passed": true
+    },
+    {
+      "name": "全库检索、类型切换与无结果",
+      "passed": true
+    },
+    {
+      "name": "工作台保留 OCR 与提取演示",
+      "passed": true
+    },
+    {
+      "name": "移动端档案列表与详情切换",
+      "passed": true
+    },
+    {
+      "name": "移动端侨批列表与详情切换",
+      "passed": true
+    },
+    {
+      "name": "移动端导航展开",
+      "passed": true
+    },
+    {
+      "name": "Backend 服务失败不会静默回落 Demo",
+      "passed": true
+    }
+  ],
+  "offline": [
+    {
+      "route": "index",
+      "pass": true,
+      "maps": 1,
+      "errors": []
+    },
+    {
+      "route": "person",
+      "pass": true,
+      "maps": 0,
+      "errors": []
+    },
+    {
+      "route": "family",
+      "pass": true,
+      "maps": 1,
+      "errors": []
+    },
+    {
+      "route": "place",
+      "pass": true,
+      "maps": 1,
+      "errors": []
+    },
+    {
+      "route": "event",
+      "pass": true,
+      "maps": 1,
+      "errors": []
+    },
+    {
+      "route": "org",
+      "pass": true,
+      "maps": 0,
+      "errors": []
+    },
+    {
+      "route": "archive",
+      "pass": true,
+      "maps": 0,
+      "errors": []
+    },
+    {
+      "route": "qiaopi",
+      "pass": true,
+      "maps": 1,
+      "errors": []
+    },
+    {
+      "route": "research",
+      "pass": true,
+      "maps": 1,
+      "errors": []
+    },
+    {
+      "route": "search",
+      "pass": true,
+      "maps": 0,
+      "errors": []
+    }
+  ],
+  "failures": [],
+  "pass": true
+}

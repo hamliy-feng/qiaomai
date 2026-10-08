@@ -1,0 +1,628 @@
+{
+  "count": 154,
+  "by_reasons": {
+    "english_or_transliterated_name_with_chinese_surname_or_name_signal": 56,
+    "insufficient_identity_context": 9,
+    "only_education_abroad_signal": 89
+  },
+  "with_zhwiki": 90,
+  "with_enwiki": 47,
+  "high_signal": 14,
+  "with_chinese_name": 100,
+  "samples": [
+    {
+      "qid": "Q4760952",
+      "name": "Andy Liu",
+      "traditional": "Andy Liu",
+      "english": "Andy Liu",
+      "score": 13,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "foreign_residence",
+        "death_abroad",
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q89548016",
+      "name": "Lim Yew Kuan",
+      "traditional": "Lim Yew Kuan",
+      "english": "Lim Yew Kuan",
+      "score": 10,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad",
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q110088974",
+      "name": "Chee Chin S. Cheung Lee",
+      "traditional": "Chee Chin S. Cheung Lee",
+      "english": "Chee Chin S. Cheung Lee",
+      "score": 9,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad",
+        "work_location_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q5100978",
+      "name": "Ching-chih Chen",
+      "traditional": "Ching-chih Chen",
+      "english": "Ching-chih Chen",
+      "score": 9,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "foreign_residence",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q6304434",
+      "name": "Judy Fong Bates",
+      "traditional": "Judy Fong Bates",
+      "english": "Judy Fong Bates",
+      "score": 9,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "foreign_residence",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q114578519",
+      "name": "Francisco Villa-Abrille",
+      "traditional": "Francisco Villa-Abrille",
+      "english": "Francisco Villa-Abrille",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "foreign_residence"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q40698802",
+      "name": "Wing F. Ong",
+      "traditional": "Wing F. Ong",
+      "english": "Wing F. Ong",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q6135188",
+      "name": "詹姆斯豪威尔霍华德",
+      "traditional": "詹姆斯豪威爾霍華德",
+      "english": "James H. Howard",
+      "score": 8,
+      "reasons": [
+        "insufficient_identity_context"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q1441489",
+      "name": "法兰西斯·F·陈",
+      "traditional": "法蘭西斯·F·陳",
+      "english": "Francis F. Chen",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E6%B3%95%E8%98%AD%E8%A5%BF%E6%96%AF%C2%B7F%C2%B7%E9%99%B3"
+    },
+    {
+      "qid": "Q7788330",
+      "name": "Thomas Chang",
+      "traditional": "Thomas Chang",
+      "english": "Thomas Chang",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q5290575",
+      "name": "Dominic Lam",
+      "traditional": "Dominic Lam",
+      "english": "Dominic Lam",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q5433801",
+      "name": "Fang Wong",
+      "traditional": "Fang Wong",
+      "english": "Fang Wong",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_residence",
+        "educated_abroad",
+        "member_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q88836238",
+      "name": "Guanghan F Liu",
+      "traditional": "Guanghan F Liu",
+      "english": "Guanghan F Liu",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "death_abroad",
+        "educated_abroad",
+        "employer_abroad",
+        "member_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q7167583",
+      "name": "Percy Snow",
+      "traditional": "Percy Snow",
+      "english": "Percy Snow",
+      "score": 8,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "foreign_residence",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q21536452",
+      "name": "Chin Kaw",
+      "traditional": "Chin Kaw",
+      "english": "Chin Kaw",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q55137842",
+      "name": "Yucho Chow",
+      "traditional": "Yucho Chow",
+      "english": "Yucho Chow",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q43138689",
+      "name": "Chuah Thean Teng",
+      "traditional": "Chuah Thean Teng",
+      "english": "Chuah Thean Teng",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q10771955",
+      "name": "何英 (越南诗人)",
+      "traditional": "何英 (越南詩人)",
+      "english": "Hồ Dzếch",
+      "score": 7,
+      "reasons": [
+        "insufficient_identity_context"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad"
+      ],
+      "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E4%BD%95%E8%8B%B1_(%E8%B6%8A%E5%8D%97%E8%AF%97%E4%BA%BA)"
+    },
+    {
+      "qid": "Q135449250",
+      "name": "Tong Wong",
+      "traditional": "Tong Wong",
+      "english": "Tong Wong",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q110816376",
+      "name": "Henry Yee",
+      "traditional": "Henry Yee",
+      "english": "Henry Yee",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q60161898",
+      "name": "Fay Gock",
+      "traditional": "Fay Gock",
+      "english": "Fay Gock",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q115462358",
+      "name": "Liu Hsu",
+      "traditional": "Liu Hsu",
+      "english": "Liu Hsu",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "educated_abroad",
+        "employer_abroad",
+        "member_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q608469",
+      "name": "陈达 (作家)",
+      "traditional": "陳達 (作家)",
+      "english": "Da Chen",
+      "score": 7,
+      "reasons": [
+        "insufficient_identity_context"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "death_abroad",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E9%99%88%E8%BE%BE_(1962%E5%B9%B4)"
+    },
+    {
+      "qid": "Q68939027",
+      "name": "Hangsheng Lin",
+      "traditional": "Hangsheng Lin",
+      "english": "Hangsheng Lin",
+      "score": 7,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "death_abroad",
+        "employer_abroad",
+        "member_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q110639242",
+      "name": "Neil Chin",
+      "traditional": "Neil Chin",
+      "english": "Neil Chin",
+      "score": 6,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q18276808",
+      "name": "Y. K. Lin",
+      "traditional": "Y. K. Lin",
+      "english": "Y. K. Lin",
+      "score": 6,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q60676467",
+      "name": "William Yee",
+      "traditional": "William Yee",
+      "english": "William Yee",
+      "score": 6,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q140312963",
+      "name": "Margaret Lee",
+      "traditional": "Margaret Lee",
+      "english": "Margaret Lee",
+      "score": 6,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q62088499",
+      "name": "Henry Wai-chung Yeung",
+      "traditional": "Henry Wai-chung Yeung",
+      "english": "Henry Wai-chung Yeung",
+      "score": 6,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "educated_abroad",
+        "employer_abroad",
+        "member_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q5102548",
+      "name": "Chiu Kwok-chun",
+      "traditional": "Chiu Kwok-chun",
+      "english": "Chiu Kwok-chun",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q5090899",
+      "name": "Chen Su Lan",
+      "traditional": "Chen Su Lan",
+      "english": "Chen Su Lan",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "death_abroad",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q12495029",
+      "name": "Lo Ban Teng",
+      "traditional": "Lo Ban Teng",
+      "english": "Lo Ban Teng",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_residence"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q16658411",
+      "name": "白玉堂 (粤剧演员)",
+      "traditional": "白玉堂 (粵劇演員)",
+      "english": "Pak Yuk-Tong",
+      "score": 5,
+      "reasons": [
+        "insufficient_identity_context"
+      ],
+      "signals": [
+        "foreign_citizenship"
+      ],
+      "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E7%99%BD%E7%8E%89%E5%A0%82_(%E7%B2%B5%E5%8A%87%E6%BC%94%E5%93%A1)"
+    },
+    {
+      "qid": "Q124798699",
+      "name": "Tianzong Chen",
+      "traditional": "Tianzong Chen",
+      "english": "Tianzong Chen",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q102160785",
+      "name": "Chio-Shih Lin",
+      "traditional": "Chio-Shih Lin",
+      "english": "Chio-Shih Lin",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q17510189",
+      "name": "Fay Chong",
+      "traditional": "Fay Chong",
+      "english": "Fay Chong",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship",
+        "educated_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q5506836",
+      "name": "Fu Hua Chen",
+      "traditional": "Fu Hua Chen",
+      "english": "Fu Hua Chen",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q139607759",
+      "name": "Stanley H. Chin",
+      "traditional": "Stanley H. Chin",
+      "english": "Stanley H. Chin",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "educated_abroad",
+        "employer_abroad"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q97819428",
+      "name": "Cheng Tsang Man",
+      "traditional": "Cheng Tsang Man",
+      "english": "Cheng Tsang Man",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship"
+      ],
+      "wikipedia_zh": null
+    },
+    {
+      "qid": "Q21932175",
+      "name": "Wood Moy",
+      "traditional": "Wood Moy",
+      "english": "Wood Moy",
+      "score": 5,
+      "reasons": [
+        "english_or_transliterated_name_with_chinese_surname_or_name_signal"
+      ],
+      "signals": [
+        "foreign_citizenship"
+      ],
+      "wikipedia_zh": null
+    }
+  ]
+}

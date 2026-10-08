@@ -1,0 +1,150 @@
+{
+  "count": 376,
+  "map_ready": 320,
+  "text_ready_no_coordinates": 55,
+  "needs_authority_review": 1,
+  "with_aliases": 331,
+  "historical_alias_authorities": 2,
+  "top20": [
+    {
+      "id": "place_wd_Q68695",
+      "name": "泉州市",
+      "linked_person_count": 10,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q59223",
+      "name": "中山市",
+      "linked_person_count": 16,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q16572",
+      "name": "广州市",
+      "linked_person_count": 214,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q172",
+      "name": "多伦多",
+      "linked_person_count": 8,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q59100",
+      "name": "汕头市",
+      "linked_person_count": 22,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q599514",
+      "name": "开平市",
+      "linked_person_count": 13,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q68481",
+      "name": "福州市",
+      "linked_person_count": 37,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q60",
+      "name": "纽约",
+      "linked_person_count": 11,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q68744",
+      "name": "厦门市",
+      "linked_person_count": 31,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q1867",
+      "name": "台北市",
+      "linked_person_count": 23,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q59132",
+      "name": "江门市",
+      "linked_person_count": 120,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q15175",
+      "name": "广东省",
+      "linked_person_count": 91,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q164904",
+      "name": "台山市",
+      "linked_person_count": 23,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q62",
+      "name": "旧金山",
+      "linked_person_count": 9,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q948245",
+      "name": "番禺区",
+      "linked_person_count": 16,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q59227",
+      "name": "潮州市",
+      "linked_person_count": 36,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q41705",
+      "name": "福建省",
+      "linked_person_count": 45,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q65",
+      "name": "洛杉矶",
+      "linked_person_count": 7,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q945428",
+      "name": "顺德区",
+      "linked_person_count": 13,
+      "status": "map_ready",
+      "score": 11
+    },
+    {
+      "id": "place_wd_Q1023893",
+      "name": "南海区",
+      "linked_person_count": 9,
+      "status": "map_ready",
+      "score": 11
+    }
+  ]
+}

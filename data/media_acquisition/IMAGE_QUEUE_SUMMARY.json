@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-08T06:57:35.610Z",
+  "total": 1680,
+  "by_type": {
+    "person": 1001,
+    "organization": 126,
+    "place": 383,
+    "family": 89,
+    "qiaopi": 81
+  },
+  "event_strategy": "inherit event/document/person/organization/place media; search only featured events",
+  "document_strategy": "person/org research document reuses entity cover; real historical document uses own original",
+  "policy": "real sourced media only; no AI generation/inpainting/watermark removal"
+}

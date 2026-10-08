@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-08T03:31:44.799Z",
+  "status": "release_candidate_not_production",
+  "files": [
+    {
+      "file": "persons_1000_basic_cards.jsonl",
+      "records": 1000,
+      "sha256": "8108c0a7f5c50ac1c19885a46000f9519f7407f712c79366a5fbf2bbbf53a3b3"
+    },
+    {
+      "file": "persons_top100_basic_ready.jsonl",
+      "records": 100,
+      "sha256": "1444650ddbb4df0d8a098b4c079472cbce176c44608edd01b07af29d691aa81b"
+    },
+    {
+      "file": "organizations_basic_ready.jsonl",
+      "records": 60,
+      "sha256": "8917e2ef988407f808d515651fe61664e3d95385eb426d5caa9ccaed576ae2a5"
+    },
+    {
+      "file": "events_frontend_candidates.jsonl",
+      "records": 1344,
+      "sha256": "726af81ed56c6ab5d685d9266312282650379863fbaa0a3566eb8055655b0696"
+    },
+    {
+      "file": "places_map_ready.jsonl",
+      "records": 320,
+      "sha256": "568e42bedb7c40d11ee019267899c532db2b2c2cce54f20765a59721d1ca2c2e"
+    },
+    {
+      "file": "places_text_ready.jsonl",
+      "records": 55,
+      "sha256": "1bee525b4d5af6ded9b8cf34a4c870229d4c679a70cff0dd08f76146f6878329"
+    }
+  ],
+  "media_policy": "qiaopi images excluded unless clean_original + no watermark + no alteration + full_page + rights allowed",
+  "qiaopi_media_included": 0,
+  "release_blockers": [
+    "1000人物仍是basic/candidate分层，不是1000学术reviewed",
+    "侨批clean_original正式媒体仍需单独过门禁",
+    "3000份侨批规范全文未完成"
+  ]
+}
